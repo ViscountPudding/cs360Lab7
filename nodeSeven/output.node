@@ -1,0 +1,16 @@
+nohup: ignoring input
+
+> nodeSeven@0.0.0 start /opt/bitnami/apache2/htdocs/cs360/labs/lab7/nodeSeven
+> node ./bin/www
+
+[0mGET / [36m304 [0m9.412 ms - -[0m
+[0mGET /getcity?q=P [36m304 [0m6.052 ms - -[0m
+[0mGET /getcity?q=P [32m200 [0m2.224 ms - 304[0m
+[0mGET /getcity?q=Pe [32m200 [0m0.535 ms - 17[0m
+[0mGET /getcity?q=P [36m304 [0m1.170 ms - -[0m
+[0mGET /getcity?q=Pr [36m304 [0m0.541 ms - -[0m
+[0mGET /getcity?q=Pro [36m304 [0m0.489 ms - -[0m
+[0mGET /getcity?q=Prov [36m304 [0m0.587 ms - -[0m
+[0mGET /getcity?q=Provo [36m304 [0m2.775 ms - -[0m
+[0mGET /test1 [36m304 [0m0.860 ms - -[0m
+[0mGET /getcity?q=P [36m304 [0m0.721 ms - -[0m
