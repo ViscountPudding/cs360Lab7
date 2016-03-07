@@ -1,13 +1,22 @@
 var fs = require('fs')
 var http = require('http')
 var url = require('url')
-var ROOT_DIR = "/"
+var app = require('./app')
+var ROOT_DIR = "nodeSeven/public"
 
+app.set('port', 3000);
 
+var server = http.createServer(app);
+
+server.listen(3000);
+
+/*
 http.createServer(function (req, res) {
 
-	var urlObj = url.parse(req.url, true, false) + "cityfinder.html"
+	var urlObj = url.parse(req.url, true, false)
+
 	console.log(urlObj);
+
 	fs.readFile(ROOT_DIR + urlObj.pathname, function (err, data) {
 		if(err)
 		{
@@ -19,3 +28,4 @@ http.createServer(function (req, res) {
 		res.end(data)
 		})
 	}).listen(3000);
+*/
